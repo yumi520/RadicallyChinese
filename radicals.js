@@ -1,7 +1,5 @@
 const fetch = require('node-fetch'); 
 
-
-
 let getAllRadicals = () => {
     return radicals.map(data => data.radical);
 };
@@ -14,7 +12,7 @@ function getRadicalNum(current) {
   }
 }
 
-// //this checks if the inputted chara actually uses the radical
+//this checks if the inputted chara actually uses the radical
 function checksRadicals(userInput, allCharasWithRadical) {
   return allCharasWithRadical.includes(userInput);
 }
@@ -33,6 +31,8 @@ async function fetchCharacters(currentNum) {
 }
 
 
+//array of js objects that include the radical
+//and its associated number
 const radicals = [
     { number: 1, radical: '一' },
     { number: 2, radical: '丨' },

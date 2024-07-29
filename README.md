@@ -14,8 +14,8 @@ npm install
 
 * Clone the Repository
 ```
-git clone https://github.com/your-username/RadicalChinese.git
-cd RadicalChinese
+git clone https://github.com/your-username/RadicallyChinese.git
+cd RadicallyChinese
 ```
 
 ### Executing program

@@ -35,6 +35,10 @@ ex. [@yumi520](chow.y@northeastern.edu)
 
 ## Version History
 
+* 0.3
+    * Added a way for the users to ask for hints (the definition of the radical)
+    * by JSON parsing
+    * See [commit change]() or See [release history]()
 * 0.2
     * Added a way to keep track of points and better styling
     * See [commit change]() or See [release history]()

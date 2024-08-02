@@ -17,7 +17,7 @@ function startGame(currentRandomRadical) {
 
         if (answer === "hint") {
             let definition = getDefinition(currentRandomRadical);
-            console.log(`Here's a hint: ${definition}`);
+            console.log(`Here's the definition of ${currentRandomRadical}: ${definition}`);
             hintGiven = true;
 
             //prompt the user again so it doesnt exit the game
